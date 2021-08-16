@@ -1,0 +1,42 @@
+{
+  "yueXinJhipsterApp": {
+    "sysUser": {
+      "home": {
+        "title": "Sys Users",
+        "createLabel": "创建新 Sys User",
+        "createOrEditLabel": "创建或编辑 Sys User",
+        "notFound": "No Sys Users found"
+      },
+      "created": "Sys User {{ param }} 创建成功",
+      "updated": "Sys User {{ param }} 更新成功",
+      "deleted": "Sys User {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Sys User {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sys User"
+      },
+      "deptId": "Dept Id",
+      "userName": "User Name",
+      "nickName": "Nick Name",
+      "userType": "User Type",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "gender": "Gender",
+      "avatar": "Avatar",
+      "password": "Password",
+      "status": "Status",
+      "delFlag": "Del Flag",
+      "loginIp": "Login Ip",
+      "loginDate": "Login Date",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark",
+      "sysPost": "Sys Post",
+      "sysDept": "Sys Dept",
+      "sysRole": "Sys Role"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "yueXinJhipsterApp": {
+    "sysDept": {
+      "home": {
+        "title": "Sys Depts",
+        "createLabel": "Create a new Sys Dept",
+        "createOrEditLabel": "Create or edit a Sys Dept",
+        "notFound": "No Sys Depts found"
+      },
+      "created": "A new Sys Dept is created with identifier {{ param }}",
+      "updated": "A Sys Dept is updated with identifier {{ param }}",
+      "deleted": "A Sys Dept is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sys Dept {{ id }}?"
+      },
+      "detail": {
+        "title": "Sys Dept"
+      },
+      "deptName": "Dept Name",
+      "parentId": "Parent Id",
+      "ancestors": "Ancestors",
+      "orderNum": "Order Num",
+      "leader": "Leader",
+      "phone": "Phone",
+      "email": "Email",
+      "status": "Status",
+      "delFlag": "Del Flag",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "deptId": "Dept Id"
+    }
+  }
+}

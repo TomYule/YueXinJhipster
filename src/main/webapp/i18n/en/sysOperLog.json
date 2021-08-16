@@ -1,0 +1,36 @@
+{
+  "yueXinJhipsterApp": {
+    "sysOperLog": {
+      "home": {
+        "title": "Sys Oper Logs",
+        "createLabel": "Create a new Sys Oper Log",
+        "createOrEditLabel": "Create or edit a Sys Oper Log",
+        "notFound": "No Sys Oper Logs found"
+      },
+      "created": "A new Sys Oper Log is created with identifier {{ param }}",
+      "updated": "A Sys Oper Log is updated with identifier {{ param }}",
+      "deleted": "A Sys Oper Log is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sys Oper Log {{ id }}?"
+      },
+      "detail": {
+        "title": "Sys Oper Log"
+      },
+      "title": "Title",
+      "businessType": "Business Type",
+      "method": "Method",
+      "requestMethod": "Request Method",
+      "operatorType": "Operator Type",
+      "operName": "Oper Name",
+      "deptName": "Dept Name",
+      "operUrl": "Oper Url",
+      "operIp": "Oper Ip",
+      "operLocation": "Oper Location",
+      "operParam": "Oper Param",
+      "jsonResult": "Json Result",
+      "status": "Status",
+      "errorMsg": "Error Msg",
+      "operTime": "Oper Time"
+    }
+  }
+}

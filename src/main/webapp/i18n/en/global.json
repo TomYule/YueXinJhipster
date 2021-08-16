@@ -7,6 +7,21 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "genTable": "Gen Table",
+        "genTableColumn": "Gen Table Column",
+        "sysConfig": "Sys Config",
+        "sysDept": "Sys Dept",
+        "sysDictType": "Sys Dict Type",
+        "sysDictData": "Sys Dict Data",
+        "sysJob": "Sys Job",
+        "sysJobLog": "Sys Job Log",
+        "sysNotice": "Sys Notice",
+        "sysPost": "Sys Post",
+        "sysRole": "Sys Role",
+        "sysUser": "Sys User",
+        "sysLoginInfor": "Sys Login Infor",
+        "sysOperLog": "Sys Oper Log",
+        "sysMenu": "Sys Menu",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

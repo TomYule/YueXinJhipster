@@ -1,0 +1,32 @@
+{
+  "yueXinJhipsterApp": {
+    "sysJob": {
+      "home": {
+        "title": "Sys Jobs",
+        "createLabel": "创建新 Sys Job",
+        "createOrEditLabel": "创建或编辑 Sys Job",
+        "notFound": "No Sys Jobs found"
+      },
+      "created": "Sys Job {{ param }} 创建成功",
+      "updated": "Sys Job {{ param }} 更新成功",
+      "deleted": "Sys Job {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Sys Job {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sys Job"
+      },
+      "jobName": "Job Name",
+      "jobGroup": "Job Group",
+      "invokeTarget": "Invoke Target",
+      "cronExpression": "Cron Expression",
+      "misfirePolicy": "Misfire Policy",
+      "status": "Status",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark"
+    }
+  }
+}

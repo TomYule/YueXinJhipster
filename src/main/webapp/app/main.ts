@@ -29,6 +29,21 @@ import ConfigurationService from '@/admin/configuration/configuration.service';
 
 /* tslint:disable */
 
+import GenTableService from '@/entities/gen-table/gen-table.service';
+import GenTableColumnService from '@/entities/gen-table-column/gen-table-column.service';
+import SysConfigService from '@/entities/sys-config/sys-config.service';
+import SysDeptService from '@/entities/sys-dept/sys-dept.service';
+import SysDictTypeService from '@/entities/sys-dict-type/sys-dict-type.service';
+import SysDictDataService from '@/entities/sys-dict-data/sys-dict-data.service';
+import SysJobService from '@/entities/sys-job/sys-job.service';
+import SysJobLogService from '@/entities/sys-job-log/sys-job-log.service';
+import SysNoticeService from '@/entities/sys-notice/sys-notice.service';
+import SysPostService from '@/entities/sys-post/sys-post.service';
+import SysRoleService from '@/entities/sys-role/sys-role.service';
+import SysUserService from '@/entities/sys-user/sys-user.service';
+import SysLoginInforService from '@/entities/sys-login-infor/sys-login-infor.service';
+import SysOperLogService from '@/entities/sys-oper-log/sys-oper-log.service';
+import SysMenuService from '@/entities/sys-menu/sys-menu.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -91,6 +106,21 @@ new Vue({
     metricsService: () => new MetricsService(),
     alertService: () => alertService,
     translationService: () => translationService,
+    genTableService: () => new GenTableService(),
+    genTableColumnService: () => new GenTableColumnService(),
+    sysConfigService: () => new SysConfigService(),
+    sysDeptService: () => new SysDeptService(),
+    sysDictTypeService: () => new SysDictTypeService(),
+    sysDictDataService: () => new SysDictDataService(),
+    sysJobService: () => new SysJobService(),
+    sysJobLogService: () => new SysJobLogService(),
+    sysNoticeService: () => new SysNoticeService(),
+    sysPostService: () => new SysPostService(),
+    sysRoleService: () => new SysRoleService(),
+    sysUserService: () => new SysUserService(),
+    sysLoginInforService: () => new SysLoginInforService(),
+    sysOperLogService: () => new SysOperLogService(),
+    sysMenuService: () => new SysMenuService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
   },

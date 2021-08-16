@@ -1,0 +1,30 @@
+{
+  "yueXinJhipsterApp": {
+    "sysNotice": {
+      "home": {
+        "title": "Sys Notices",
+        "createLabel": "创建新 Sys Notice",
+        "createOrEditLabel": "创建或编辑 Sys Notice",
+        "notFound": "No Sys Notices found"
+      },
+      "created": "Sys Notice {{ param }} 创建成功",
+      "updated": "Sys Notice {{ param }} 更新成功",
+      "deleted": "Sys Notice {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Sys Notice {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sys Notice"
+      },
+      "noticeTitle": "Notice Title",
+      "noticeType": "Notice Type",
+      "noticeContent": "Notice Content",
+      "status": "Status",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark"
+    }
+  }
+}

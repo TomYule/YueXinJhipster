@@ -1,0 +1,27 @@
+{
+  "yueXinJhipsterApp": {
+    "sysJobLog": {
+      "home": {
+        "title": "Sys Job Logs",
+        "createLabel": "Create a new Sys Job Log",
+        "createOrEditLabel": "Create or edit a Sys Job Log",
+        "notFound": "No Sys Job Logs found"
+      },
+      "created": "A new Sys Job Log is created with identifier {{ param }}",
+      "updated": "A Sys Job Log is updated with identifier {{ param }}",
+      "deleted": "A Sys Job Log is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sys Job Log {{ id }}?"
+      },
+      "detail": {
+        "title": "Sys Job Log"
+      },
+      "jobName": "Job Name",
+      "jobGroup": "Job Group",
+      "invokeTarget": "Invoke Target",
+      "status": "Status",
+      "exceptionInfo": "Exception Info",
+      "createTime": "Create Time"
+    }
+  }
+}

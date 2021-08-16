@@ -1,0 +1,30 @@
+{
+  "yueXinJhipsterApp": {
+    "sysNotice": {
+      "home": {
+        "title": "Sys Notices",
+        "createLabel": "Create a new Sys Notice",
+        "createOrEditLabel": "Create or edit a Sys Notice",
+        "notFound": "No Sys Notices found"
+      },
+      "created": "A new Sys Notice is created with identifier {{ param }}",
+      "updated": "A Sys Notice is updated with identifier {{ param }}",
+      "deleted": "A Sys Notice is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sys Notice {{ id }}?"
+      },
+      "detail": {
+        "title": "Sys Notice"
+      },
+      "noticeTitle": "Notice Title",
+      "noticeType": "Notice Type",
+      "noticeContent": "Notice Content",
+      "status": "Status",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark"
+    }
+  }
+}

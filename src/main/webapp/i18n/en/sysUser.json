@@ -1,0 +1,42 @@
+{
+  "yueXinJhipsterApp": {
+    "sysUser": {
+      "home": {
+        "title": "Sys Users",
+        "createLabel": "Create a new Sys User",
+        "createOrEditLabel": "Create or edit a Sys User",
+        "notFound": "No Sys Users found"
+      },
+      "created": "A new Sys User is created with identifier {{ param }}",
+      "updated": "A Sys User is updated with identifier {{ param }}",
+      "deleted": "A Sys User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sys User {{ id }}?"
+      },
+      "detail": {
+        "title": "Sys User"
+      },
+      "deptId": "Dept Id",
+      "userName": "User Name",
+      "nickName": "Nick Name",
+      "userType": "User Type",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "gender": "Gender",
+      "avatar": "Avatar",
+      "password": "Password",
+      "status": "Status",
+      "delFlag": "Del Flag",
+      "loginIp": "Login Ip",
+      "loginDate": "Login Date",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark",
+      "sysPost": "Sys Post",
+      "sysDept": "Sys Dept",
+      "sysRole": "Sys Role"
+    }
+  }
+}

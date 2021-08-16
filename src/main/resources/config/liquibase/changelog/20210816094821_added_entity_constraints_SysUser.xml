@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity SysUser.
+    -->
+    <changeSet id="20210816094821-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="sys_user_id"
+                                 baseTableName="sys_user_sys_post"
+                                 constraintName="fk_sys_user_sys_post_sys_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="sys_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="sys_post_id"
+                                 baseTableName="sys_user_sys_post"
+                                 constraintName="fk_sys_user_sys_post_sys_post_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="sys_post"/>
+        
+        <addForeignKeyConstraint baseColumnNames="sys_dept_id"
+                                 baseTableName="sys_user"
+                                 constraintName="fk_sys_user_sys_dept_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="sys_dept"/>
+
+    </changeSet>
+</databaseChangeLog>
