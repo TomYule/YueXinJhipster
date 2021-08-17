@@ -1,0 +1,39 @@
+{
+  "yueXinJhipsterApp": {
+    "sysMenu": {
+      "home": {
+        "title": "Sys Menus",
+        "createLabel": "创建新 Sys Menu",
+        "createOrEditLabel": "创建或编辑 Sys Menu",
+        "notFound": "No Sys Menus found"
+      },
+      "created": "Sys Menu {{ param }} 创建成功",
+      "updated": "Sys Menu {{ param }} 更新成功",
+      "deleted": "Sys Menu {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Sys Menu {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sys Menu"
+      },
+      "menuName": "Menu Name",
+      "parentId": "Parent Id",
+      "orderNum": "Order Num",
+      "path": "Path",
+      "components": "Components",
+      "isFrame": "Is Frame",
+      "isCache": "Is Cache",
+      "menuType": "Menu Type",
+      "visible": "Visible",
+      "status": "Status",
+      "perms": "Perms",
+      "icon": "Icon",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark",
+      "sysRole": "Sys Role"
+    }
+  }
+}

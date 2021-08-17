@@ -1,0 +1,58 @@
+{
+  "name": "SysNotice",
+  "fields": [
+    {
+      "fieldName": "noticeTitle",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "noticeType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "noticeContent",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updateBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "upLocalDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "remark",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210817065729",
+  "javadoc": "通知公告表 entity.\\n@author haiming",
+  "entityTableName": "sys_notice",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

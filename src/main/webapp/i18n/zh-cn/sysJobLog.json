@@ -1,0 +1,27 @@
+{
+  "yueXinJhipsterApp": {
+    "sysJobLog": {
+      "home": {
+        "title": "Sys Job Logs",
+        "createLabel": "创建新 Sys Job Log",
+        "createOrEditLabel": "创建或编辑 Sys Job Log",
+        "notFound": "No Sys Job Logs found"
+      },
+      "created": "Sys Job Log {{ param }} 创建成功",
+      "updated": "Sys Job Log {{ param }} 更新成功",
+      "deleted": "Sys Job Log {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Sys Job Log {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sys Job Log"
+      },
+      "jobName": "Job Name",
+      "jobGroup": "Job Group",
+      "invokeTarget": "Invoke Target",
+      "status": "Status",
+      "exceptionInfo": "Exception Info",
+      "createTime": "Create Time"
+    }
+  }
+}

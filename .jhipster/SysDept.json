@@ -1,0 +1,80 @@
+{
+  "name": "SysDept",
+  "fields": [
+    {
+      "fieldName": "deptName",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "parentId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ancestors",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "orderNum",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "leader",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "delFlag",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updateBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "upLocalDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "sysUser",
+      "otherEntityRelationshipName": "sysDept",
+      "relationshipName": "deptId"
+    }
+  ],
+  "changelogDate": "20210817065229",
+  "javadoc": "部门表 entity.\\n@author haiming",
+  "entityTableName": "sys_dept",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

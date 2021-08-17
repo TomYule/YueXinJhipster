@@ -1,0 +1,30 @@
+{
+  "yueXinJhipsterApp": {
+    "sysConfig": {
+      "home": {
+        "title": "Sys Configs",
+        "createLabel": "创建新 Sys Config",
+        "createOrEditLabel": "创建或编辑 Sys Config",
+        "notFound": "No Sys Configs found"
+      },
+      "created": "Sys Config {{ param }} 创建成功",
+      "updated": "Sys Config {{ param }} 更新成功",
+      "deleted": "Sys Config {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Sys Config {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sys Config"
+      },
+      "configName": "Config Name",
+      "configKey": "Config Key",
+      "configValue": "Config Value",
+      "configType": "Config Type",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark"
+    }
+  }
+}

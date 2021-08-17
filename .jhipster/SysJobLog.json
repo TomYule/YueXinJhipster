@@ -1,0 +1,42 @@
+{
+  "name": "SysJobLog",
+  "fields": [
+    {
+      "fieldName": "jobName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "jobGroup",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "invokeTarget",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "exceptionInfo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210817065629",
+  "javadoc": "定时任务调度日志表 entity.\\n@author haiming",
+  "entityTableName": "sys_job_log",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

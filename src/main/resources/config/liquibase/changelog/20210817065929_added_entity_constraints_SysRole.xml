@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity SysRole.
+    -->
+    <changeSet id="20210817065929-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="sys_role_id"
+                                 baseTableName="sys_role_sys_menu"
+                                 constraintName="fk_sys_role_sys_menu_sys_role_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="sys_role"/>
+
+        <addForeignKeyConstraint baseColumnNames="sys_menu_id"
+                                 baseTableName="sys_role_sys_menu"
+                                 constraintName="fk_sys_role_sys_menu_sys_menu_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="sys_menu"/>
+        
+        <addForeignKeyConstraint baseColumnNames="sys_role_id"
+                                 baseTableName="sys_role_sys_user"
+                                 constraintName="fk_sys_role_sys_user_sys_role_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="sys_role"/>
+
+        <addForeignKeyConstraint baseColumnNames="sys_user_id"
+                                 baseTableName="sys_role_sys_user"
+                                 constraintName="fk_sys_role_sys_user_sys_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="sys_user"/>
+        
+    </changeSet>
+</databaseChangeLog>

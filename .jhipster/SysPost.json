@@ -1,0 +1,64 @@
+{
+  "name": "SysPost",
+  "fields": [
+    {
+      "fieldName": "postCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postSort",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updateBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "upLocalDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "remark",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "sysUser",
+      "otherEntityRelationshipName": "sysPost",
+      "relationshipName": "sysUser",
+      "otherEntityField": "id",
+      "ownerSide": false
+    }
+  ],
+  "changelogDate": "20210817065829",
+  "javadoc": "岗位信息表 entity.\\n@author haiming",
+  "entityTableName": "sys_post",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

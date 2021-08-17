@@ -1,0 +1,114 @@
+{
+  "name": "GenTableColumn",
+  "fields": [
+    {
+      "fieldName": "tableId",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "columnName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "columnComment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "columnType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "javaType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "javaField",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isPk",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isIncrement",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isRequired",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isInsert",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isEdit",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isList",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isQuery",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "htmlType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dictType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sort",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updateBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "upLocalDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "remark",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "genTable",
+      "otherEntityRelationshipName": "tableId",
+      "relationshipName": "genTable",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210817065029",
+  "javadoc": "代码生成业务表字段 entity.\\n@author haiming",
+  "entityTableName": "gen_table_column",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

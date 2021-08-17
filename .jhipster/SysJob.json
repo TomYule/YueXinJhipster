@@ -1,0 +1,63 @@
+{
+  "name": "SysJob",
+  "fields": [
+    {
+      "fieldName": "jobName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "jobGroup",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "invokeTarget",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cronExpression",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "misfirePolicy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updateBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "upLocalDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "remark",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210817065529",
+  "javadoc": "定时任务调度表 entity.\\n@author haiming",
+  "entityTableName": "sys_job",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

@@ -1,0 +1,30 @@
+{
+  "yueXinJhipsterApp": {
+    "sysDictType": {
+      "home": {
+        "title": "Sys Dict Types",
+        "createLabel": "Create a new Sys Dict Type",
+        "createOrEditLabel": "Create or edit a Sys Dict Type",
+        "notFound": "No Sys Dict Types found"
+      },
+      "created": "A new Sys Dict Type is created with identifier {{ param }}",
+      "updated": "A Sys Dict Type is updated with identifier {{ param }}",
+      "deleted": "A Sys Dict Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sys Dict Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Sys Dict Type"
+      },
+      "dictName": "Dict Name",
+      "dictType": "Dict Type",
+      "status": "Status",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark",
+      "dictType": "Dict Type"
+    }
+  }
+}

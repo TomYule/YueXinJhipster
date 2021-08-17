@@ -1,0 +1,35 @@
+{
+  "yueXinJhipsterApp": {
+    "sysDictData": {
+      "home": {
+        "title": "Sys Dict Data",
+        "createLabel": "创建新 Sys Dict Data",
+        "createOrEditLabel": "创建或编辑 Sys Dict Data",
+        "notFound": "No Sys Dict Data found"
+      },
+      "created": "Sys Dict Data {{ param }} 创建成功",
+      "updated": "Sys Dict Data {{ param }} 更新成功",
+      "deleted": "Sys Dict Data {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Sys Dict Data {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sys Dict Data"
+      },
+      "dictSort": "Dict Sort",
+      "dictLabel": "Dict Label",
+      "dictValue": "Dict Value",
+      "dictType": "Dict Type",
+      "cssClass": "Css Class",
+      "listClass": "List Class",
+      "isDefault": "Is Default",
+      "status": "Status",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark",
+      "sysDictType": "Sys Dict Type"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "GenTable",
+  "fields": [
+    {
+      "fieldName": "tableName",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "tableComment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "subTableName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "subTableFkName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "className",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tplCategory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "packAgeName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "moduleName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "businessName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "functionName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "functionAuthor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "genType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "genPath",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "options",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updateBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "upLocalDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "remark",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "genTableColumn",
+      "otherEntityRelationshipName": "genTable",
+      "relationshipName": "tableId"
+    }
+  ],
+  "changelogDate": "20210817064929",
+  "javadoc": "代码生成业务表 entity.\\n@author haiming",
+  "entityTableName": "gen_table",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

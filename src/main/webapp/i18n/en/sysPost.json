@@ -1,0 +1,31 @@
+{
+  "yueXinJhipsterApp": {
+    "sysPost": {
+      "home": {
+        "title": "Sys Posts",
+        "createLabel": "Create a new Sys Post",
+        "createOrEditLabel": "Create or edit a Sys Post",
+        "notFound": "No Sys Posts found"
+      },
+      "created": "A new Sys Post is created with identifier {{ param }}",
+      "updated": "A Sys Post is updated with identifier {{ param }}",
+      "deleted": "A Sys Post is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sys Post {{ id }}?"
+      },
+      "detail": {
+        "title": "Sys Post"
+      },
+      "postCode": "Post Code",
+      "postName": "Post Name",
+      "postSort": "Post Sort",
+      "status": "Status",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark",
+      "sysUser": "Sys User"
+    }
+  }
+}

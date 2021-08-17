@@ -1,0 +1,43 @@
+{
+  "yueXinJhipsterApp": {
+    "genTableColumn": {
+      "home": {
+        "title": "Gen Table Columns",
+        "createLabel": "Create a new Gen Table Column",
+        "createOrEditLabel": "Create or edit a Gen Table Column",
+        "notFound": "No Gen Table Columns found"
+      },
+      "created": "A new Gen Table Column is created with identifier {{ param }}",
+      "updated": "A Gen Table Column is updated with identifier {{ param }}",
+      "deleted": "A Gen Table Column is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Gen Table Column {{ id }}?"
+      },
+      "detail": {
+        "title": "Gen Table Column"
+      },
+      "tableId": "Table Id",
+      "columnName": "Column Name",
+      "columnComment": "Column Comment",
+      "columnType": "Column Type",
+      "javaType": "Java Type",
+      "javaField": "Java Field",
+      "isPk": "Is Pk",
+      "isIncrement": "Is Increment",
+      "isRequired": "Is Required",
+      "isInsert": "Is Insert",
+      "isEdit": "Is Edit",
+      "isList": "Is List",
+      "isQuery": "Is Query",
+      "htmlType": "Html Type",
+      "dictType": "Dict Type",
+      "sort": "Sort",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark",
+      "genTable": "Gen Table"
+    }
+  }
+}

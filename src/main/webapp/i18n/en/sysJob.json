@@ -1,0 +1,32 @@
+{
+  "yueXinJhipsterApp": {
+    "sysJob": {
+      "home": {
+        "title": "Sys Jobs",
+        "createLabel": "Create a new Sys Job",
+        "createOrEditLabel": "Create or edit a Sys Job",
+        "notFound": "No Sys Jobs found"
+      },
+      "created": "A new Sys Job is created with identifier {{ param }}",
+      "updated": "A Sys Job is updated with identifier {{ param }}",
+      "deleted": "A Sys Job is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sys Job {{ id }}?"
+      },
+      "detail": {
+        "title": "Sys Job"
+      },
+      "jobName": "Job Name",
+      "jobGroup": "Job Group",
+      "invokeTarget": "Invoke Target",
+      "cronExpression": "Cron Expression",
+      "misfirePolicy": "Misfire Policy",
+      "status": "Status",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark"
+    }
+  }
+}

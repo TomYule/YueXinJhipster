@@ -1,0 +1,88 @@
+{
+  "name": "SysRole",
+  "fields": [
+    {
+      "fieldName": "roleName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "roleKey",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "roleSort",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dataScope",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "menuCheckStrictly",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "deptCheckStrictly",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "delFlag",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "updateBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "upLocalDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "remark",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "sysMenu",
+      "otherEntityRelationshipName": "sysRole",
+      "relationshipName": "sysMenu",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "sysUser",
+      "otherEntityRelationshipName": "sysRole",
+      "relationshipName": "sysUser",
+      "otherEntityField": "id",
+      "ownerSide": true
+    }
+  ],
+  "changelogDate": "20210817065929",
+  "javadoc": "角色信息表 entity.\\n@author haiming",
+  "entityTableName": "sys_role",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

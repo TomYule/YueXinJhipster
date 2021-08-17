@@ -1,0 +1,50 @@
+{
+  "name": "SysLoginInfor",
+  "fields": [
+    {
+      "fieldName": "userName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ipAddr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "loginLocation",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "browser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "os",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "msg",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "loginTime",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210817070129",
+  "javadoc": "系统访问记录 entity.\\n@author haiming",
+  "entityTableName": "sys_login_infor",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

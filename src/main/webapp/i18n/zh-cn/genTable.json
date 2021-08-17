@@ -1,0 +1,41 @@
+{
+  "yueXinJhipsterApp": {
+    "genTable": {
+      "home": {
+        "title": "Gen Tables",
+        "createLabel": "创建新 Gen Table",
+        "createOrEditLabel": "创建或编辑 Gen Table",
+        "notFound": "No Gen Tables found"
+      },
+      "created": "Gen Table {{ param }} 创建成功",
+      "updated": "Gen Table {{ param }} 更新成功",
+      "deleted": "Gen Table {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Gen Table {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Gen Table"
+      },
+      "tableName": "Table Name",
+      "tableComment": "Table Comment",
+      "subTableName": "Sub Table Name",
+      "subTableFkName": "Sub Table Fk Name",
+      "className": "Class Name",
+      "tplCategory": "Tpl Category",
+      "packAgeName": "Pack Age Name",
+      "moduleName": "Module Name",
+      "businessName": "Business Name",
+      "functionName": "Function Name",
+      "functionAuthor": "Function Author",
+      "genType": "Gen Type",
+      "genPath": "Gen Path",
+      "options": "Options",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark",
+      "tableId": "Table Id"
+    }
+  }
+}

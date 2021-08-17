@@ -1,0 +1,36 @@
+{
+  "yueXinJhipsterApp": {
+    "sysRole": {
+      "home": {
+        "title": "Sys Roles",
+        "createLabel": "Create a new Sys Role",
+        "createOrEditLabel": "Create or edit a Sys Role",
+        "notFound": "No Sys Roles found"
+      },
+      "created": "A new Sys Role is created with identifier {{ param }}",
+      "updated": "A Sys Role is updated with identifier {{ param }}",
+      "deleted": "A Sys Role is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sys Role {{ id }}?"
+      },
+      "detail": {
+        "title": "Sys Role"
+      },
+      "roleName": "Role Name",
+      "roleKey": "Role Key",
+      "roleSort": "Role Sort",
+      "dataScope": "Data Scope",
+      "menuCheckStrictly": "Menu Check Strictly",
+      "deptCheckStrictly": "Dept Check Strictly",
+      "status": "Status",
+      "delFlag": "Del Flag",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark",
+      "sysMenu": "Sys Menu",
+      "sysUser": "Sys User"
+    }
+  }
+}

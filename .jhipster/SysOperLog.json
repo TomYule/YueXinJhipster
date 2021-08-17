@@ -1,0 +1,84 @@
+{
+  "name": "SysOperLog",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "businessType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "method",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "requestMethod",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "operatorType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "operName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "deptName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "operUrl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "operIp",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "operLocation",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "operParam",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "jsonResult",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "errorMsg",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "operTime",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210817070229",
+  "javadoc": "操作日志记录 entity.\\n@author haiming",
+  "entityTableName": "sys_oper_log",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

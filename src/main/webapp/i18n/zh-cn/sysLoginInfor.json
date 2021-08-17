@@ -1,0 +1,29 @@
+{
+  "yueXinJhipsterApp": {
+    "sysLoginInfor": {
+      "home": {
+        "title": "Sys Login Infors",
+        "createLabel": "创建新 Sys Login Infor",
+        "createOrEditLabel": "创建或编辑 Sys Login Infor",
+        "notFound": "No Sys Login Infors found"
+      },
+      "created": "Sys Login Infor {{ param }} 创建成功",
+      "updated": "Sys Login Infor {{ param }} 更新成功",
+      "deleted": "Sys Login Infor {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Sys Login Infor {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sys Login Infor"
+      },
+      "userName": "User Name",
+      "ipAddr": "Ip Addr",
+      "loginLocation": "Login Location",
+      "browser": "Browser",
+      "os": "Os",
+      "status": "Status",
+      "msg": "Msg",
+      "loginTime": "Login Time"
+    }
+  }
+}

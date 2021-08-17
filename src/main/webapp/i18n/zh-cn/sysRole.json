@@ -1,0 +1,36 @@
+{
+  "yueXinJhipsterApp": {
+    "sysRole": {
+      "home": {
+        "title": "Sys Roles",
+        "createLabel": "创建新 Sys Role",
+        "createOrEditLabel": "创建或编辑 Sys Role",
+        "notFound": "No Sys Roles found"
+      },
+      "created": "Sys Role {{ param }} 创建成功",
+      "updated": "Sys Role {{ param }} 更新成功",
+      "deleted": "Sys Role {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Sys Role {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sys Role"
+      },
+      "roleName": "Role Name",
+      "roleKey": "Role Key",
+      "roleSort": "Role Sort",
+      "dataScope": "Data Scope",
+      "menuCheckStrictly": "Menu Check Strictly",
+      "deptCheckStrictly": "Dept Check Strictly",
+      "status": "Status",
+      "delFlag": "Del Flag",
+      "createBy": "Create By",
+      "createTime": "Create Time",
+      "updateBy": "Update By",
+      "upLocalDate": "Up Local Date",
+      "remark": "Remark",
+      "sysMenu": "Sys Menu",
+      "sysUser": "Sys User"
+    }
+  }
+}
