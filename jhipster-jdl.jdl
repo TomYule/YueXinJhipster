@@ -330,5 +330,5 @@ relationship ManyToMany{
 }
 
 paginate GenTable, GenTableColumn , SysConfig , SysDictType, SysDictData,
-		SysJob , SysJobLog , SysLoginInfor, SysMenu, SysNotice, SysOperLog,
+		SysJob , SysJobLog , SysLoginInfor, SysNotice, SysOperLog,
         SysRole , SysPost, SysUser, SysPost   with pagination

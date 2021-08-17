@@ -6,7 +6,7 @@
     <!--
         Added the constraints for entity SysRole.
     -->
-    <changeSet id="20210816094721-2" author="jhipster">
+    <changeSet id="20210817013621-2" author="jhipster">
         
         <addForeignKeyConstraint baseColumnNames="sys_role_id"
                                  baseTableName="sys_role_sys_menu"

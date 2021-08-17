@@ -11,7 +11,7 @@
     <!--
         Added the entity SysOperLog.
     -->
-    <changeSet id="20210816095021-1" author="jhipster">
+    <changeSet id="20210817013921-1" author="jhipster">
         <createTable tableName="sys_oper_log" remarks="操作日志记录 entity.\n@author haiming">
             <column name="id" type="bigint" autoIncrement="${autoIncrement}">
                 <constraints primaryKey="true" nullable="false"/>
@@ -65,7 +65,7 @@
         </createTable>
     </changeSet>
 
-    <changeSet id="20210816095021-1-relations" author="jhipster">
+    <changeSet id="20210817013921-1-relations" author="jhipster">
 
     </changeSet>
     <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
@@ -78,7 +78,7 @@
           This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
           Spring Boot configuration key.
     -->
-    <changeSet id="20210816095021-1-data" author="jhipster" context="faker">
+    <changeSet id="20210817013921-1-data" author="jhipster" context="faker">
         <loadData
                   file="config/liquibase/fake-data/sys_oper_log.csv"
                   separator=";"

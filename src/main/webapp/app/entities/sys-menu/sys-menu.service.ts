@@ -1,7 +1,5 @@
 import axios from 'axios';
 
-import buildPaginationQueryOpts from '@/shared/sort/sorts';
-
 import { ISysMenu } from '@/shared/model/sys-menu.model';
 
 const baseApiUrl = 'api/sys-menus';
@@ -20,10 +18,10 @@ export default class SysMenuService {
     });
   }
 
-  public retrieve(paginationQuery?: any): Promise<any> {
+  public retrieve(): Promise<any> {
     return new Promise<any>((resolve, reject) => {
       axios
-        .get(baseApiUrl + `?${buildPaginationQueryOpts(paginationQuery)}`)
+        .get(baseApiUrl)
         .then(res => {
           resolve(res);
         })

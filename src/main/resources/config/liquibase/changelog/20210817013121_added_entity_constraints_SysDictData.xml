@@ -4,15 +4,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
     <!--
-        Added the constraints for entity SysDept.
+        Added the constraints for entity SysDictData.
     -->
-    <changeSet id="20210816094021-2" author="jhipster">
+    <changeSet id="20210817013121-2" author="jhipster">
         
-        <addForeignKeyConstraint baseColumnNames="sys_user_id"
-                                 baseTableName="sys_dept"
-                                 constraintName="fk_sys_dept_sys_user_id"
+        <addForeignKeyConstraint baseColumnNames="sys_dict_type_id"
+                                 baseTableName="sys_dict_data"
+                                 constraintName="fk_sys_dict_data_sys_dict_type_id"
                                  referencedColumnNames="id"
-                                 referencedTableName="sys_user"/>
+                                 referencedTableName="sys_dict_type"/>
 
     </changeSet>
 </databaseChangeLog>

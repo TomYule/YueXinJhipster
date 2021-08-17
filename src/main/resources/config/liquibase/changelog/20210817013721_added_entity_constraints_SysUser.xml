@@ -6,7 +6,7 @@
     <!--
         Added the constraints for entity SysUser.
     -->
-    <changeSet id="20210816094821-2" author="jhipster">
+    <changeSet id="20210817013721-2" author="jhipster">
         
         <addForeignKeyConstraint baseColumnNames="sys_user_id"
                                  baseTableName="sys_user_sys_post"

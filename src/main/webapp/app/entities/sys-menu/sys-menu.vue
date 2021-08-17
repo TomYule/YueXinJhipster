@@ -24,24 +24,24 @@
             <table class="table table-striped">
                 <thead>
                 <tr>
-                    <th v-on:click="changeOrder('id')"><span v-text="$t('global.field.id')">ID</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'id'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('menuName')"><span v-text="$t('yueXinJhipsterApp.sysMenu.menuName')">Menu Name</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'menuName'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('parentId')"><span v-text="$t('yueXinJhipsterApp.sysMenu.parentId')">Parent Id</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'parentId'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('orderNum')"><span v-text="$t('yueXinJhipsterApp.sysMenu.orderNum')">Order Num</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'orderNum'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('path')"><span v-text="$t('yueXinJhipsterApp.sysMenu.path')">Path</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'path'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('components')"><span v-text="$t('yueXinJhipsterApp.sysMenu.components')">Components</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'components'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('isFrame')"><span v-text="$t('yueXinJhipsterApp.sysMenu.isFrame')">Is Frame</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'isFrame'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('isCache')"><span v-text="$t('yueXinJhipsterApp.sysMenu.isCache')">Is Cache</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'isCache'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('menuType')"><span v-text="$t('yueXinJhipsterApp.sysMenu.menuType')">Menu Type</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'menuType'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('visible')"><span v-text="$t('yueXinJhipsterApp.sysMenu.visible')">Visible</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'visible'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('status')"><span v-text="$t('yueXinJhipsterApp.sysMenu.status')">Status</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'status'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('perms')"><span v-text="$t('yueXinJhipsterApp.sysMenu.perms')">Perms</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'perms'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('icon')"><span v-text="$t('yueXinJhipsterApp.sysMenu.icon')">Icon</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'icon'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('createBy')"><span v-text="$t('yueXinJhipsterApp.sysMenu.createBy')">Create By</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'createBy'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('createTime')"><span v-text="$t('yueXinJhipsterApp.sysMenu.createTime')">Create Time</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'createTime'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('updateBy')"><span v-text="$t('yueXinJhipsterApp.sysMenu.updateBy')">Update By</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'updateBy'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('upLocalDate')"><span v-text="$t('yueXinJhipsterApp.sysMenu.upLocalDate')">Up Local Date</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'upLocalDate'"></jhi-sort-indicator></th>
-                    <th v-on:click="changeOrder('remark')"><span v-text="$t('yueXinJhipsterApp.sysMenu.remark')">Remark</span> <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'remark'"></jhi-sort-indicator></th>
+                    <th><span v-text="$t('global.field.id')">ID</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.menuName')">Menu Name</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.parentId')">Parent Id</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.orderNum')">Order Num</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.path')">Path</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.components')">Components</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.isFrame')">Is Frame</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.isCache')">Is Cache</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.menuType')">Menu Type</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.visible')">Visible</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.status')">Status</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.perms')">Perms</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.icon')">Icon</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.createBy')">Create By</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.createTime')">Create Time</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.updateBy')">Update By</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.upLocalDate')">Up Local Date</span></th>
+                    <th><span v-text="$t('yueXinJhipsterApp.sysMenu.remark')">Remark</span></th>
                     <th></th>
                 </tr>
                 </thead>
@@ -101,14 +101,6 @@
                 <button type="button" class="btn btn-primary" id="jhi-confirm-delete-sysMenu" v-text="$t('entity.action.delete')" v-on:click="removeSysMenu()">Delete</button>
             </div>
         </b-modal>
-        <div v-show="sysMenus && sysMenus.length > 0">
-            <div class="row justify-content-center">
-                <jhi-item-count :page="page" :total="queryCount" :itemsPerPage="itemsPerPage"></jhi-item-count>
-            </div>
-            <div class="row justify-content-center">
-                <b-pagination size="md" :total-rows="totalItems" v-model="page" :per-page="itemsPerPage" :change="loadPage(page)"></b-pagination>
-            </div>
-        </div>
     </div>
 </template>
 
