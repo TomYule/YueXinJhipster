@@ -32,6 +32,66 @@
                         <font-awesome-icon icon="th-list" />
                         <span v-text="$t('global.menu.entities.main')">Entities</span>
                     </span>
+                    <b-dropdown-item to="/gen-table">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.genTable')">GenTable</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/gen-table-column">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.genTableColumn')">GenTableColumn</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-config">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysConfig')">SysConfig</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-dept">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysDept')">SysDept</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-dict-type">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysDictType')">SysDictType</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-dict-data">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysDictData')">SysDictData</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-job">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysJob')">SysJob</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-job-log">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysJobLog')">SysJobLog</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-notice">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysNotice')">SysNotice</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-post">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysPost')">SysPost</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-role">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysRole')">SysRole</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-user">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysUser')">SysUser</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-login-infor">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysLoginInfor')">SysLoginInfor</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-oper-log">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysOperLog')">SysOperLog</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/sys-menu">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.sysMenu')">SysMenu</span>
+                    </b-dropdown-item>
                     <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
                 </b-nav-item-dropdown>
                 <b-nav-item-dropdown

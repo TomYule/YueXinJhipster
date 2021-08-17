@@ -1,0 +1,334 @@
+enum UserStatus{
+	ENABLE, DISABLE, DELETED
+}
+
+/**
+ * 代码生成业务表 entity.
+ * @author haiming
+ */
+entity GenTable{
+    tableName String required,
+    tableComment String,
+    subTableName String,
+    subTableFkName String,
+    className String,
+    tplCategory String,
+    packAgeName String,
+    moduleName String,
+    businessName String,
+    functionName String,
+    functionAuthor String,
+    genType String,
+    genPath String,
+    options String,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+
+/**
+ * 代码生成业务表字段 entity.
+ * @author haiming
+ */
+entity GenTableColumn{
+    tableId String required,
+    columnName String,
+    columnComment String,
+    columnType String,
+    javaType String,
+    javaField String,
+    isPk String,
+    isIncrement  String,
+    isRequired  String,
+    isInsert  String,
+    isEdit  String,
+    isList  String,
+    isQuery  String,
+    htmlType  String,
+    dictType  String,
+    sort Integer,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+
+/**
+ * 参数配置表 entity.
+ * @author haiming
+ */
+entity SysConfig {
+	configName String required,
+    configKey String ,
+    configValue String ,
+    configType String ,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+
+/**
+ * 部门表 entity.
+ * @author haiming
+ */
+entity SysDept{
+    deptName String required,
+    parentId String,
+    ancestors String,
+    orderNum Integer,
+    leader String,
+    phone String,
+    email String,
+    status String,
+    delFlag String,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+}
+
+/**
+ * 字典类型表 entity.
+ * @author haiming
+ */
+entity SysDictType{
+    dictName  String,
+    dictType  String,
+    status  String,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+
+/**
+ * 字典数据表 entity.
+ * @author haiming
+ */
+entity SysDictData {
+    dictSort String,
+    dictLabel String,
+    dictValue String,
+    dictType  String,
+    cssClass String,
+    listClass String,
+    isDefault String,
+    status  String,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+
+/**
+ * 定时任务调度表 entity.
+ * @author haiming
+ */
+entity SysJob{
+    jobName  String,
+    jobGroup  String,
+    invokeTarget  String,
+    cronExpression  String,
+    misfirePolicy  String,
+    status  String,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+
+/**
+ * 定时任务调度日志表 entity.
+ * @author haiming
+ */
+entity SysJobLog{
+    jobName String,
+    jobGroup String,
+    invokeTarget String,
+    status String,
+    exceptionInfo String,
+    createTime LocalDate,
+}
+
+/**
+ * 通知公告表 entity.
+ * @author haiming
+ */
+entity SysNotice{
+    noticeTitle String required,
+    noticeType String,
+    noticeContent String,
+    status Integer,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+
+/**
+ * 岗位信息表 entity.
+ * @author haiming
+ */
+entity SysPost {
+	postCode String,
+    postName String,
+    postSort Integer,
+    status String,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+/**
+ * 角色信息表 entity.
+ * @author haiming
+ */
+entity SysRole{
+    roleName String required,
+    roleKey String,
+    roleSort Integer,
+    dataScope String,
+    menuCheckStrictly Integer,
+    deptCheckStrictly Integer,
+    status String,
+    delFlag String,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+
+/**
+ * 用户信息表 entity.
+ * @author haiming
+ */
+entity SysUser {
+    deptId String required,
+    userName String maxlength(30),
+    nickName String maxlength(30),
+    userType String ,
+    email String maxlength(50),
+    phoneNumber String maxlength(11),
+    gender String ,
+    avatar String,
+    password String,
+    status UserStatus,
+    delFlag String,
+    loginIp String,
+    loginDate LocalDate,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+
+/**
+ * 角色信息表 entity.
+ * @author haiming
+ */
+entity SysRole{
+	roleName String,
+    roleKey String,
+    roleSort Integer,
+    dataScope String,
+    menuCheckStrictly Integer,
+    deptCheckStrictly Integer,
+    status String,
+    delFlag String,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+
+
+/**
+ * 系统访问记录 entity.
+ * @author haiming
+ */
+entity SysLoginInfor{
+    userName String,
+    ipAddr String,
+    loginLocation String,
+    browser String,
+    os String,
+    status String,
+    msg String,
+    loginTime LocalDate,
+}
+
+/**
+ * 操作日志记录 entity.
+ * @author haiming
+ */
+entity SysOperLog{
+    title String required,
+    businessType Integer,
+    method String,
+    requestMethod String,
+    operatorType Integer,
+    operName String,
+    deptName String,
+    operUrl String,
+    operIp  String,
+    operLocation  String,
+    operParam TextBlob,
+    jsonResult TextBlob,
+    status Integer,
+    errorMsg  TextBlob,
+    operTime  LocalDate,
+}
+
+
+/**
+ * 菜单权限表 entity.
+ * @author haiming
+ */
+entity SysMenu{
+    menuName String required,
+    parentId Long,
+    orderNum  Integer,
+    path String,
+    components String,
+    isFrame String,
+    isCache String,
+    menuType String,
+    visible String,
+    status String,
+    perms String,
+    icon String,
+    createBy String,
+    createTime LocalDate,
+    updateBy String,
+    upLocalDate LocalDate,
+    remark TextBlob,
+}
+
+relationship OneToMany {
+    SysDictType{dictType} to SysDictData,
+    GenTable{tableId} to GenTableColumn,
+    SysDept{deptId} to SysUser,
+}
+
+relationship ManyToMany{
+	SysRole to SysMenu,
+    SysRole to SysUser,
+    SysUser to SysPost,
+}
+
+paginate GenTable, GenTableColumn , SysConfig , SysDictType, SysDictData,
+		SysJob , SysJobLog , SysLoginInfor, SysNotice, SysOperLog,
+        SysRole , SysPost, SysUser, SysPost   with pagination

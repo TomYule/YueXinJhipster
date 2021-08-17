@@ -14,7 +14,26 @@
     <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817064929_added_entity_GenTable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065029_added_entity_GenTableColumn.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065129_added_entity_SysConfig.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065229_added_entity_SysDept.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065329_added_entity_SysDictType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065429_added_entity_SysDictData.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065529_added_entity_SysJob.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065629_added_entity_SysJobLog.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065729_added_entity_SysNotice.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065829_added_entity_SysPost.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065929_added_entity_SysRole.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817070029_added_entity_SysUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817070129_added_entity_SysLoginInfor.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817070229_added_entity_SysOperLog.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817070329_added_entity_SysMenu.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20210817065029_added_entity_constraints_GenTableColumn.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065429_added_entity_constraints_SysDictData.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817065929_added_entity_constraints_SysRole.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817070029_added_entity_constraints_SysUser.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>
